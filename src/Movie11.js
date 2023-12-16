@@ -11,6 +11,7 @@ export default function Movie11() {
    var desc1='';
     const pa=useParams();
     const {name1}=pa;
+    console.log(name1)
     const [data1,setdata]=useState(popular);
     const [actualdata1,setdata1]=useState([])
     function seacrhfunction(data1){
